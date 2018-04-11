@@ -1,0 +1,12 @@
+
+ sudo apt-get install lamp-server^ -y   //install LAMP server
+
+ mysql_secure_installation              //configure mysql
+
+
+ http://localhost                      //test apache 
+
+ sudo /var/www/html/testing.php        //to test php
+ <?php phpinfo(); ?>                   //context of testing.php
+ sudo service apache2 restart          //restarting server
+ http://localhost/testing.php
